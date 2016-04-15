@@ -119,7 +119,7 @@ static NSString * const cellIdentifier = @"cell";
         {
             Person*person = [[Person alloc] init];
             person.englishName = @"Xiao Wang";
-            self.allresultArray= [NSMutableArray arrayWithObjects:person.englishName, nil];
+            self.allresultArray= [NSMutableArray arrayWithObjects:[NSString stringWithFormat:@"englishName: %@",person.englishName], nil];
         }
             break;
         default:

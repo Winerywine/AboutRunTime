@@ -95,13 +95,9 @@
 			children = (
 				962DC0021CC0AEF60075BF6F /* Delegate */,
 				962DC0011CC0AEED0075BF6F /* Controller */,
-				962DBFE81CC0AEE40075BF6F /* Assets.xcassets */,
-				962DC0061CC0B6410075BF6F /* RunTimeUtility.h */,
-				962DC0071CC0B6410075BF6F /* RunTimeUtility.m */,
-				962DC0031CC0B0870075BF6F /* Person.h */,
-				962DC0041CC0B0870075BF6F /* Person.m */,
-				962DC00C1CC0F7AF0075BF6F /* Person+addProperty.h */,
-				962DC00D1CC0F7AF0075BF6F /* Person+addProperty.m */,
+				962DC00F1CC1020E0075BF6F /* Model */,
+				962DC0101CC102160075BF6F /* Category */,
+				962DC0111CC102230075BF6F /* RunTime */,
 				962DBFDC1CC0AEE40075BF6F /* Supporting Files */,
 			);
 			path = RunTimeThing;
@@ -110,6 +106,7 @@
 		962DBFDC1CC0AEE40075BF6F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				962DBFE81CC0AEE40075BF6F /* Assets.xcassets */,
 				962DBFED1CC0AEE40075BF6F /* Info.plist */,
 				962DBFE51CC0AEE40075BF6F /* Main.storyboard */,
 				962DBFEA1CC0AEE40075BF6F /* LaunchScreen.storyboard */,
@@ -145,6 +142,33 @@
 				962DBFE01CC0AEE40075BF6F /* AppDelegate.m */,
 			);
 			name = Delegate;
+			sourceTree = "<group>";
+		};
+		962DC00F1CC1020E0075BF6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				962DC0031CC0B0870075BF6F /* Person.h */,
+				962DC0041CC0B0870075BF6F /* Person.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		962DC0101CC102160075BF6F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				962DC00C1CC0F7AF0075BF6F /* Person+addProperty.h */,
+				962DC00D1CC0F7AF0075BF6F /* Person+addProperty.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		962DC0111CC102230075BF6F /* RunTime */ = {
+			isa = PBXGroup;
+			children = (
+				962DC0061CC0B6410075BF6F /* RunTimeUtility.h */,
+				962DC0071CC0B6410075BF6F /* RunTimeUtility.m */,
+			);
+			name = RunTime;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -444,6 +468,7 @@
 				962DBFFD1CC0AEE40075BF6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		962DBFFE1CC0AEE40075BF6F /* Build configuration list for PBXNativeTarget "RunTimeThingTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +477,7 @@
 				962DC0001CC0AEE40075BF6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
