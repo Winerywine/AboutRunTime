@@ -95,7 +95,7 @@
     return array;
 }
 
-+ (void)changeClassPropertyValueWithPersonObject: (Person *)person {
+- (void)changeClassPropertyValueWithPersonObject: (Person *)person {
     unsigned int count = 0;
     Ivar *ivar = class_copyIvarList([Person class], &count);
     for (int i = 0; i < count; i ++) {
